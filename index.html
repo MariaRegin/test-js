@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link href="assets/letter-a.png" rel="shortcut icon" />
+    <title>English Dictionary Online</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="intro">
+          <h1 class="title">English Dictionary Online</h1>
+          <p class="text">Write a phrase, get definition</p>
+        </div>
+        <div><img class="image" src="assets/letter-a.png" alt="letter" /></div>
+      </header>
+      <section class="search">
+        <p>Enter your query</p>
+        <div>
+          <input
+            class="input"
+            type="search"
+            placeholder="word in English eg. hello"
+          />
+          <button class="button">Search</button>
+        </div>
+      </section>
+      <section class="translation">
+        <div id="dataList"></div>
+      </section>
+      <div class="error"></div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
